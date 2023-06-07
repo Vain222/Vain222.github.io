@@ -5,14 +5,15 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-	<title>reveal.js</title>
+	<title>人工智能</title>
 
-	<link rel="stylesheet" href="dist/reset.css">
-	<link rel="stylesheet" href="dist/reveal.css">
-	<link rel="stylesheet" href="dist/theme/simple.css">
+	<link rel="stylesheet" href="../reveal.js/dist/reset.css">
+	<link rel="stylesheet" href="../reveal.js/dist/reveal.css">
+	<link rel="stylesheet" href="../reveal.js/dist/theme/simple.css">
 
 	<!-- Theme used for syntax highlighted code -->
-	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	<link rel="stylesheet" href="../reveal.js/plugin/highlight/vs.css">
+
 	<style>
 		.reveal .slide-number {
 			font-size: 26px;
@@ -149,9 +150,10 @@
 		}
 
 		.reveal code {
-			font-family: 'Inconsolata', 'AR PL Ukai CN', 'STKaiti', 'KaiTi', 'Sans Serif', Monospace;
+			font-family: 'Times New Roman','Inconsolata', 'AR PL Ukai CN', 'STKaiti', 'KaiTi', 'Sans Serif', Monospace;
+    		-webkit-font-smoothing: antialiased; /* 在 WebKit 浏览器中启用抗锯齿 */
+    		-moz-osx-font-smoothing: grayscale;
 		}
-
 		.reveal .middle blockquote {
 			text-align: center;
 			color: rgb(106, 0, 95);
@@ -203,7 +205,6 @@
 		}
 	</style>
 
-	<title>&#29702;&#35299;&#24182;&#21457;&#31243;&#24207;&#25191;&#34892;</title>
 </head>
 
 <body>
@@ -215,6 +216,14 @@
 ## 1、人工智能的基本概念
 - 人工智能，英文缩写为AI。它是研究、开发用于模拟、延伸和扩展人的智能的理论、方法、技术及应用系统的一门新的技术科学。
 - 图灵测试：不论机器是否能思维，只看它是否能通过测试。
+```c
+int xchg(volatile int *addr, int newval) {
+	int result;
+	asm volatile ("lock xchg %0, %1"
+	  : "+m"(*addr), "=a"(result) : "1"(newval));
+	return result;
+  }
+```
 ---
 ## 2、人工智能的发展简史
 <section>
@@ -273,17 +282,17 @@
 		</div>
 	</div>
 
-	<script src="dist/reveal.js"></script>
-	<script src="plugin/notes/notes.js"></script>
-	<script src="plugin/markdown/markdown.js"></script>
-	<script src="plugin/highlight/highlight.js"></script>
+	<script src="../reveal.js/dist/reveal.js"></script>
+	<script src="../reveal.js/plugin/notes/notes.js"></script>
+	<script src="../reveal.js/plugin/markdown/markdown.js"></script>
+	<script src="../reveal.js/plugin/highlight/highlight.js"></script>
+
 	<script>
 		// More info about initialization & config:
 		// - https://revealjs.com/initialization/
 		// - https://revealjs.com/config/
 		Reveal.initialize({
 			width: 1024, height: 768,
-
 			slideNumber: 'c/t',
 			controlsTutorial: false,
 			progress: false,
@@ -293,8 +302,12 @@
 			autoAnimateEasing: 'ease-out',
 			autoAnimateDuration: 0.3,
 			transitionSpeed: 'fast',
-			plugins: [ RevealMarkdown ]
+			plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ],
+			markdown: {
+    smartypants: true
+  }
 		});
+
 	</script>
 </body>
 
