@@ -3,6 +3,8 @@
   - [图、树](markdown\graph\g.md)
   - [动态规划](markdown\dp\dp.md)
 
-- 计算机视觉
+- AI
+  - [Computer Vision](markdown\ai\CV\cv.md)
+  - [Theary](markdown\ai\theary\theary.md)
 
 - [关于我](markdown/aboutme.md)

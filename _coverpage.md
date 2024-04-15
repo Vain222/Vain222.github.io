@@ -1,5 +1,5 @@
 <p align="center">
-<img src="img\me.png" width="200" height="200"/>
+<img src="img\me.png" width="300" height="300"/>
 </p>
 <h1 align="center">Hanlin Li's Blog</h1>
 
