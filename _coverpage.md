@@ -8,4 +8,5 @@
 <!-- > Let's start! -->
 
 [github](https://github.com/Vain222)
-[Click](README.md)
+[About me](markdown/aboutme.md)
+[Start](README.md)
