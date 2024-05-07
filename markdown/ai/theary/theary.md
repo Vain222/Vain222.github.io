@@ -1,2 +1,2 @@
-## [前向-前向传播](markdown\CV\ffp.md)
-## [KAN](markdown\ai\CV\KAN.md)
+## [前向-前向传播](markdown\ai\theary\ffa.md)
+## [KAN](markdown\ai\theary\KAN.md)

@@ -1,3 +1,4 @@
+# [KAN](https://arxiv.org/abs/2404.19756)
 # 启发
 KAN网络结构思路来自Kolmogorov-Arnold表示定理，MLP 在节点（“神经元”）上具有固定的激活函数，而 KAN 在边（“权重”）上具有可学习的激活函数。
 
