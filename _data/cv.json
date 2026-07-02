@@ -1,0 +1,95 @@
+{
+  "basics": {
+    "name": "Hanlin Li",
+    "email": "hanlinli666@gmail.com",
+    "phone": "+86 180-0825-0081",
+    "website": "https://vain222.github.io",
+    "summary": "M.S. student in Artificial Intelligence at HUST. Research on trustworthy ML.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Wuhan",
+      "countryCode": "CN",
+      "region": "Hubei"
+    },
+    "profiles": [
+      {
+        "network": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=0gZUxvMAAAAJ"
+      },
+      {
+        "network": "GitHub",
+        "url": "https://github.com/Vain222"
+      }
+    ]
+  },
+  "work": [],
+  "education": [
+    {
+      "institution": "Huazhong University of Science and Technology",
+      "area": "Artificial Intelligence",
+      "studyType": "M.S.",
+      "startDate": "2025-09",
+      "endDate": "Present",
+      "gpa": null,
+      "courses": []
+    },
+    {
+      "institution": "Huazhong University of Science and Technology",
+      "area": "Artificial Intelligence",
+      "studyType": "B.S.",
+      "startDate": "2021-09",
+      "endDate": "2025-06",
+      "gpa": null,
+      "courses": []
+    }
+  ],
+  "skills": [],
+  "languages": [],
+  "interests": [
+    {
+      "name": "Out-of-Distribution Detection"
+    },
+    {
+      "name": "Domain Generalization"
+    },
+    {
+      "name": "Test-Time Adaptation"
+    },
+    {
+      "name": "Trustworthy Machine Learning"
+    }
+  ],
+  "references": [],
+  "publications": [
+    {
+      "name": "Why Feature Magnitude Deceives OOD Detectors: An Angular Separation Perspective",
+      "publisher": "ECCV",
+      "releaseDate": "2026-07-01",
+      "website": "",
+      "summary": "Reveals why feature magnitude misleads OOD detectors and proposes an angular separation perspective."
+    },
+    {
+      "name": "PTTA: Purifying Malicious Samples for Test-Time Model Adaptation",
+      "publisher": "ICML",
+      "releaseDate": "2025-07-01",
+      "website": "",
+      "summary": "Proposes a method that purifies malicious samples for robust test-time model adaptation."
+    },
+    {
+      "name": "Decoupled Entropy Minimization",
+      "publisher": "NeurIPS",
+      "releaseDate": "2026-12-01",
+      "website": "",
+      "summary": "Proposes decoupled entropy minimization for improved test-time adaptation and domain generalization."
+    },
+    {
+      "name": "Frequency-Aware Domain Generalization",
+      "publisher": "IEEE TIP",
+      "releaseDate": "2026-06-01",
+      "website": "",
+      "summary": "Introduces a frequency-aware approach for domain generalization."
+    }
+  ],
+  "presentations": []
+}
